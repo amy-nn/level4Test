@@ -2,6 +2,7 @@ package com.example.level4.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import com.alibaba.android.arouter.launcher.ARouter;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ARouter.getInstance().build(AroutPath.home_path).navigation();
+                Log.d("amy","报错");
             }
         });
 
