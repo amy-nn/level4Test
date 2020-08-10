@@ -15,7 +15,6 @@ ext{
             annotationArouterVersion:"1.2.2"
     ]
 
-
     dependenciesCode = [
             appcompat:"com.android.support:appcompat-v7:28.+",
             constraint:"com.android.support.constraint:constraint-layout:$versionNumber.constraintVersion",

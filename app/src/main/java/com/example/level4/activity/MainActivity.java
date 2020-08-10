@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
         button = findViewById(R.id.btn_appToHome);
 
-
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

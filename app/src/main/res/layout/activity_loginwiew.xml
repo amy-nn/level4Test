@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/loginView_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入用户名"/>
+
+    <EditText
+        android:id="@+id/loginView_pas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入密码"/>
+
+    <Button
+        android:id="@+id/loginView_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"/>
+
+    <TextView
+        android:id="@+id/txt_loginView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</LinearLayout>

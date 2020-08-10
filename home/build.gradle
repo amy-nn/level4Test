@@ -18,7 +18,6 @@ android {
         targetSdkVersion androidConfig.targetSdkVersion
         versionCode androidConfig.versionCode
         versionName androidConfig.versionName
-
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         //Arouter
