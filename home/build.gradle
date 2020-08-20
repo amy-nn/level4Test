@@ -57,5 +57,6 @@ dependencies {
     //arouter注解
     annotationProcessor libConfig.annotationArouter
 
+    implementation project(path: ':core')
     implementation project(path: ':command')
 }

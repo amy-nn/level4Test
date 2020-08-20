@@ -1,1 +1,1 @@
-include ':app', ':command', ':home', ':core'
+include ':app', ':command', ':home', ':core', ':net', ':user', ':imageloader'

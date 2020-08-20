@@ -30,6 +30,13 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            //release状态下，变量值为true
+            buildConfigField("boolean","isDebug","false")
+        }
+        debug{
+            //bebug状态下，变量值为false
+            buildConfigField("boolean","isDebug","false")
         }
     }
 
@@ -45,5 +52,19 @@ dependencies {
 
     //用api来共享arouter依赖(共享给基于它的组件）
     api libConfig.arouter
+
+    api libConfig.retrofit
+    api libConfig.retrofitgson
+    api libConfig.retrofitrxjava
+    api libConfig.gson
+    api libConfig.rxandroid
+    api libConfig.rxjava
+    api libConfig.okhttplog
+
+    api libConfig.glide
+    api libConfig.disklru
+
+//    api libConfig.fastjsonAndroid
+//    api libConfig.fastjson
 
 }

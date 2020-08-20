@@ -6,7 +6,7 @@ package com.example.core.mvp.ui;
  */
 public abstract class BaseRepository<M extends IModel>{
 
-    protected M RMode;
+    protected M model;
 
     public BaseRepository(){
         createModel();

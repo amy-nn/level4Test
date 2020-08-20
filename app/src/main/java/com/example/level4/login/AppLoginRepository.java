@@ -9,11 +9,11 @@ public class AppLoginRepository extends LoginConstract.LoginRepository{
 
     @Override
     public void getData(String url, Result result) {
-        RMode.getData(url,result);
+        model.getData(url,result);
     }
 
     @Override
     public void createModel() {
-        RMode = new APPLoginModel();
+        model = new APPLoginModel();
     }
 }
